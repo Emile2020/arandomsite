@@ -1,30 +1,109 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="https://zeno.fm/_next/image/?url=https%3A%2F%2Fimages.zeno.fm%2Fbnbjtbu_EZ7acdSIjS2H8MuEPmQsEAl3QywQ4qS5wwg%2Frs%3Afit%3A240%3A240%2Fg%3Ace%3A0%3A0%2FaHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJQ1F3cVREcWdzTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJRFF1YzdZc0FzTW9nRUVlbVZ1YncvaW1hZ2UvP3Jlc2l6ZT0yNDB4MjQwJnVwZGF0ZWQ9MTY0NDQwNzY0NzAwMA.webp&w=640&q=75" />
+    <title>Radio Boulevard</title>
+    <meta property="og:title" content="Radio Boulevard" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Radio boulevard</title>
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <style>
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}
+    </style>
+    <style>
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="/playground_assets/logo.jpg"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="title1">
-      <h1>Radio Boulevard </h1><img src="./assets/logo_boulevard.png" width="250px" height="250px">
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <h1 class="home-text">
+          <span>Ra</span>
+          <span>dio Boulevard</span>
+        </h1>
+        <span class="home-text03"><span>De warmste radio</span></span>
+        <span>Snelle links</span>
+        <div class="home-container1">
+          <a href="#wij zijn wij" class="home-link button">Wie zijn wij</a>
+          <a href="#station" class="home-link1 button">Ons station</a>
+          <a href="#wij zijn wij" class="home-link2 button">Schrijf je in</a>
+          <button class="button">
+            <span>
+              <span>Datums en updates</span>
+              <span></span>
+            </span>
+          </button>
+        </div>
+        <span id="wij zijn wij" class="home-text09">
+          <span>Wie zijn wij</span>
+          <br />
+          <span></span>
+          <br />
+          <span class="home-text14">
+            Wij zijn een radio station waar jullie liedjes kunnen kiezen.
+          </span>
+          <br />
+          <span>
+            Dit station heeft in de kerst vakantie van 2020-2021 iedereen
+            samengebracht.
+          </span>
+          <br />
+          <span>
+            We vroegen jullie voor een boodschap en een liedje om te afspeelen.
+          </span>
+          <br />
+          <span>En dat deden jullie.</span>
+          <br />
+          <span>Hopelijk tot zo</span>
+          <br />
+          <span></span>
+          <br />
+          <span>- Het radio boulevard team.</span>
+        </span>
+        <h3 class="home-text27">Luister naar radio Boulevard</h3>
+        <iframe
+          src="https://zeno.fm/player/radio-boulevard"
+          id="station"
+          class="home-iframe overflow"
+        ></iframe>
+        <a
+          href="https://tobeset"
+          target="_blank"
+          rel="noreferrer noopener"
+          class="home-link3"
+        >
+          <h1 id="schrijf" class="home-text28">Schrijf je in</h1>
+        </a>
+      </div>
     </div>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-    <iframe src="https://zeno.fm/player/radio-boulevard" width="768" height="600" frameborder="0" scrolling="no"></iframe><a href="https://zeno.fm/" target="_blank" style="display: block; font-size: 0.9em; line-height: 10px;">A Zeno.FM Station</a>
   </body>
 </html>
-<style>
-  #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-  }
-  .title1 {
-    text-align: center;
-  }
-</style>
