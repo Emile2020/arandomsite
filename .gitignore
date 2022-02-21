@@ -23,3 +23,41 @@ dist-ssr
 *.sln
 *.sw?
 pages/.cs
+test/note.txt
+test/php test/.gitignore
+test/php test/package-lock.json
+test/php test/package.json
+test/php test/README.md
+test/php test/vite.config.js
+test/php test/.vscode/extensions.json
+test/php test/public/favicon.ico
+test/php test/src/App.vue
+test/php test/src/index.html
+test/php test/src/index.php
+test/php test/src/main.js
+test/php test/src/assets/logo.png
+test/php test/src/components/HelloWorld.vue
+test/php test/vue/php test/.eslintrc.cjs
+test/php test/vue/php test/.gitignore
+test/php test/vue/php test/index.html
+test/php test/vue/php test/package-lock.json
+test/php test/vue/php test/package.json
+test/php test/vue/php test/README.md
+test/php test/vue/php test/vite.config.js
+test/php test/vue/php test/.vscode/extensions.json
+test/php test/vue/php test/public/favicon.ico
+test/php test/vue/php test/src/App.vue
+test/php test/vue/php test/src/e.php
+test/php test/vue/php test/src/main.js
+test/php test/vue/php test/src/assets/base.css
+test/php test/vue/php test/src/assets/logo.svg
+test/php test/vue/php test/src/components/HelloWorld.vue
+test/php test/vue/php test/src/components/TheWelcome.vue
+test/php test/vue/php test/src/components/WelcomeItem.vue
+test/php test/vue/php test/src/components/icons/IconCommunity.vue
+test/php test/vue/php test/src/components/icons/IconDocumentation.vue
+test/php test/vue/php test/src/components/icons/IconEcosystem.vue
+test/php test/vue/php test/src/components/icons/IconSupport.vue
+test/php test/vue/php test/src/components/icons/IconTooling.vue
+test/php test/.vscode/extensions.json
+test/php test/vue/php test/.vscode/extensions.json
